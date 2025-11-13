@@ -1,0 +1,137 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good morning",
+        "Good evening",
+        "What's up"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! How are you doing?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Talk to you soon"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later!",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Appreciate it",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem.",
+        "Glad I could help!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "Who are you?",
+        "Can you tell me your name?"
+      ],
+      "responses": [
+        "I'm your virtual assistant.",
+        "You can call me Chatbot.",
+        "I'm a chatbot designed to help you."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your hours?",
+        "When are you open?",
+        "What time do you open?",
+        "Are you open today?"
+      ],
+      "responses": [
+        "We're open 24/7.",
+        "You can reach us any time, day or night."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you accept credit cards?",
+        "Can I pay online?",
+        "What payment methods do you take?"
+      ],
+      "responses": [
+        "We accept credit cards, debit cards, and PayPal.",
+        "Online payments are supported through all major platforms."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Do you offer delivery?",
+        "How long does delivery take?",
+        "Can I track my order?"
+      ],
+      "responses": [
+        "Yes, we offer delivery for most orders.",
+        "Delivery typically takes 3–5 business days.",
+        "You can track your order through your account page."
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "I want to make a complaint",
+        "I'm not happy with your service",
+        "I have a problem",
+        "Can I speak to a manager?"
+      ],
+      "responses": [
+        "I'm sorry to hear that. Please describe the issue, and I’ll do my best to assist.",
+        "I understand your concern. Can you tell me more about the problem?"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "I need help",
+        "Can you help me?",
+        "Support",
+        "Assistance"
+      ],
+      "responses": [
+        "Of course! Please tell me what you need help with.",
+        "I’m here to help. What seems to be the issue?"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Do you know any jokes?"
+      ],
+      "responses": [
+        "Why did the computer show up at work late? It had a hard drive.",
+        "I would tell you a joke about UDP, but you might not get it."
+      ]
+    }
+  ]
+}
