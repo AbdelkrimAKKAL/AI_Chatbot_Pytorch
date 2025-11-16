@@ -182,3 +182,5 @@ if __name__ == '__main__':
             break
 
         print(assistant.procces_message(message))
+
+# it is what it is
